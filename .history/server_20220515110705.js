@@ -34,7 +34,7 @@ mongoose
 
 //use routes
 app.use("/order",orderdetails);
-app.get("/",(req,res)=>{res.send("Order Test")});
+app.get("/test",(req,res)=>{res.send("Order Test")});
 
 
 //event loop for server
